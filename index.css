@@ -353,7 +353,8 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-color: transparent;
-    margin: 15% auto;
+    overflow: hidden;
+    margin: 10% auto;
     padding: 20px;
     border-radius: 6px;
     width: 76%;
