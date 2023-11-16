@@ -391,7 +391,7 @@ body {
 }
 
 .door:hover {
-    border: 1.5px solid var(--door-border-hover);
+    border: 0px solid var(--door-border-hover);
 }
 
 .door div {
