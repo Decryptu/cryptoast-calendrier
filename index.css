@@ -163,7 +163,7 @@ html[data-theme="dark"] {
 
 
 body {
-    background-color: var(--bg-calendar);
+    background-color: #151516;
     background-image: url('https://i.imgur.com/RiK2WAl.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -407,7 +407,6 @@ body {
 }
 
 .door .front {
-    background: var(--door-bg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
