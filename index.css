@@ -19,7 +19,7 @@
 }
 
 #modalPopup .dailyTitle {
-    color: #7E8DCF;
+    color: #CD803D;
     padding-top: 10rem;
 }
 
@@ -32,7 +32,7 @@
 
 
 #modalPopup button.research {
-    background: linear-gradient(275.5deg, #CAD1F8 0%, #282F60 100%);
+    background: linear-gradient(275.5deg, #FFC192 0%, #CD803D 100%);
     border: 0;
     border-radius: 5px;
     padding: 0.5em 1.5em;
