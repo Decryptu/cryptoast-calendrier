@@ -328,42 +328,16 @@ body {
 }
 
 .modalContent {
-  background-color: #EFF3FE;
-  margin: 15% auto;
-  padding: 20px 20px 30px;
-  border-radius: 6px;
-  width: 76%;
-  max-width: 600px;
-  min-height: 200px;
-  letter-spacing: 0.5px;
-  line-height: 1.4em;
-  position: relative;
-  overflow: hidden;
-}
-
-.modalContent::before,
-.modalContent::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: 20px;
-  background-color: #EFF3FE;
-  border-left: 4px solid var(--border-pink);
-  border-right: 4px solid var(--border-pink);
-  z-index: -1;
-}
-
-.modalContent::before {
-  top: -24px;
-  border-top: 4px solid var(--border-pink);
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-}
-
-.modalContent::after {
-  bottom: -24px;
-  border-bottom: 4px solid var(--border-pink);
+    background-image: url('https://i.imgur.com/tdhSGRR.png');
+    background-color: transparent;
+    margin: 15% auto;
+    padding: 20px 20px 30px;
+    border-radius: 6px;
+    width: 76%;
+    max-width: 600px;
+    min-height: 200px;
+    letter-spacing: 0.5px;
+    line-height: 1.4em;
 }
 
 .close {
