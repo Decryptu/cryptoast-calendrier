@@ -421,7 +421,7 @@ body {
 .door .front:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease, border 0.3s ease;
-    border: 2px solid #yourBorderColor;
+    border: 2px solid white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
   
