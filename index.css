@@ -329,6 +329,9 @@ body {
 
 .modalContent {
     background-image: url('https://i.imgur.com/tdhSGRR.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
     background-color: transparent;
     margin: 15% auto;
     padding: 20px 20px 30px;
