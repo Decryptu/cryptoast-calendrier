@@ -164,7 +164,7 @@ html[data-theme="dark"] {
 
 body {
     background-color: var(--bg-calendar);
-    background-image: url('https://i.imgur.com/2qcl6n0.jpg');
+    background-image: url('https://i.imgur.com/RiK2WAl.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -180,6 +180,102 @@ body {
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: auto;
     grid-gap: 15px;
+}
+
+.day1 .front {
+    background-image: url('https://i.imgur.com/cNGyUam.png');
+}
+
+.day2 .front {
+    background-image: url('https://i.imgur.com/nu9Jbcq.png');
+}
+
+.day3 .front {
+    background-image: url('https://i.imgur.com/gC1G18d.png');
+}
+
+.day4 .front {
+    background-image: url('https://i.imgur.com/wy4p3et.png');
+}
+
+.day5 .front {
+    background-image: url('https://i.imgur.com/7EYg5BD.png');
+}
+
+.day6 .front {
+    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
+}
+
+.day7 .front {
+    background-image: url('https://i.imgur.com/nu9Jbcq.png');
+}
+
+.day8 .front {
+    background-image: url('https://i.imgur.com/gC1G18d.png');
+}
+
+.day9 .front {
+    background-image: url('https://i.imgur.com/wy4p3et.png');
+}
+
+.day10 .front {
+    background-image: url('https://i.imgur.com/7EYg5BD.png');
+}
+
+.day11 .front {
+    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
+}
+
+.day12 .front {
+    background-image: url('https://i.imgur.com/nu9Jbcq.png');
+}
+
+.day13 .front {
+    background-image: url('https://i.imgur.com/gC1G18d.png');
+}
+
+.day14 .front {
+    background-image: url('https://i.imgur.com/wy4p3et.png');
+}
+
+.day15 .front {
+    background-image: url('https://i.imgur.com/7EYg5BD.png');
+}
+
+.day16 .front {
+    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
+}
+
+.day17 .front {
+    background-image: url('https://i.imgur.com/nu9Jbcq.png');
+}
+
+.day18 .front {
+    background-image: url('https://i.imgur.com/gC1G18d.png');
+}
+
+.day19 .front {
+    background-image: url('https://i.imgur.com/wy4p3et.png');
+}
+
+.day20 .front {
+    background-image: url('https://i.imgur.com/7EYg5BD.png');
+}
+
+.day21 .front {
+    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
+}
+
+.day22 .front {
+    background-image: url('https://i.imgur.com/nu9Jbcq.png');
+}
+
+.day23 .front {
+    background-image: url('https://i.imgur.com/gC1G18d.png');
+}
+
+.day24 .front {
+    background-image: url('https://i.imgur.com/wy4p3et.png');
 }
 
 .day1 .back {
