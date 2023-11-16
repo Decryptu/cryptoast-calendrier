@@ -147,7 +147,7 @@ body {
     background-image: url('https://i.imgur.com/2qcl6n0.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     font-family: 'Montserrat', Verdana;
 }
 
@@ -163,99 +163,99 @@ body {
 }
 
 .day1 .back {
-    background-image: url('https://cryptoast.fr/wp-content/themes/cryptoast3/icons/cryptoast-logo.svg');
+    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
 }
 
 .day2 .back {
-    background-image: url('https://cryptoast.fr/img/tokens/64/1.png');
+    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
 }
 
 .day3 .back {
-    background-image: url('https://cryptoast.fr/img/tokens/64/1027.png');
+    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
 }
 
 .day4 .back {
-    background-image: url('https://cryptoast.fr/img/tokens/64/825.png');
+    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
 }
 
 .day5 .back {
-    background-image: url('https://cryptoast.fr/img/tokens/64/52.png');
+    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
 }
 
 .day6 .back {
-    background-image: url('https://cryptoast.fr/img/tokens/64/3890.png');
+    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
 }
 
 .day7 .back {
-    background-image: url('https://cryptoast.fr/img/tokens/64/74.png');
+    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
 }
 
 .day8 .back {
-    background-image: url('https://cryptoast.fr/img/tokens/64/1839.png');
+    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
 }
 
 .day9 .back {
-    background-image: url('https://cryptoast.fr/img/tokens/64/2010.png');
+    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
 }
 
 .day10 .back {
-    background-image: url('https://cryptoast.fr/img/tokens/64/512.png');
+    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
 }
 
 .day11 .back {
-    background-image: url('https://cryptoast.fr/img/tokens/64/1975.png');
+    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
 }
 
 .day12 .back {
-    background-image: url('https://cryptoast.fr/img/tokens/64/1321.png');
+    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
 }
 
 .day13 .back {
-    background-image: url('https://cryptoast.fr/img/tokens/64/74.png');
+    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
 }
 
 .day14 .back {
-    background-image: url('https://cryptoast.fr/img/tokens/64/1765.png');
+    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
 }
 
 .day15 .back {
-    background-image: url('https://cryptoast.fr/img/tokens/64/328.png');
+    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
 }
 
 .day16 .back {
-    background-image: url('https://cryptoast.fr/img/tokens/64/1720.png');
+    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
 }
 
 .day17 .back {
-    background-image: url('https://cryptoast.fr/img/tokens/64/131.png');
+    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
 }
 
 .day18 .back {
-    background-image: url('https://cryptoast.fr/img/tokens/64/74.png');
+    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
 }
 
 .day19 .back {
-    background-image: url('https://cryptoast.fr/img/tokens/64/2.png');
+    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
 }
 
 .day20 .back {
-    background-image: url('https://cryptoast.fr/img/tokens/64/3602.png');
+    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
 }
 
 .day21 .back {
-    background-image: url('https://cryptoast.fr/img/tokens/64/3717.png');
+    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
 }
 
 .day22 .back {
-    background-image: url('https://cryptoast.fr/img/tokens/64/74.png');
+    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
 }
 
 .day23 .back {
-    background-image: url('https://cryptoast.fr/img/tokens/64/4023.png');
+    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
 }
 
 .day24 .back {
-    background-image: url('https://cryptoast.fr/img/tokens/64/4256.png');
+    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
 }
 
 
@@ -302,7 +302,7 @@ body {
 }
 
 .door .back {
-    background-size: contain;
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-color: var(--door-back);
