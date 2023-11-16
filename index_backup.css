@@ -187,95 +187,95 @@ body {
 }
 
 .day2 .front {
-    background-image: url('https://i.imgur.com/nu9Jbcq.png');
+    background-image: url('https://i.imgur.com/DfOpRWH.png');
 }
 
 .day3 .front {
-    background-image: url('https://i.imgur.com/gC1G18d.png');
+    background-image: url('https://i.imgur.com/5PjzwbC.png');
 }
 
 .day4 .front {
-    background-image: url('https://i.imgur.com/wy4p3et.png');
+    background-image: url('https://i.imgur.com/dU1xrDe.png');
 }
 
 .day5 .front {
-    background-image: url('https://i.imgur.com/7EYg5BD.png');
+    background-image: url('https://i.imgur.com/55JYARQ.png');
 }
 
 .day6 .front {
-    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
+    background-image: url('https://i.imgur.com/uhA46yS.png');
 }
 
 .day7 .front {
-    background-image: url('https://i.imgur.com/nu9Jbcq.png');
+    background-image: url('https://i.imgur.com/XOhtOgs.png');
 }
 
 .day8 .front {
-    background-image: url('https://i.imgur.com/gC1G18d.png');
+    background-image: url('https://i.imgur.com/zRvV1jb.png');
 }
 
 .day9 .front {
-    background-image: url('https://i.imgur.com/wy4p3et.png');
+    background-image: url('https://i.imgur.com/ojKUPs0.png');
 }
 
 .day10 .front {
-    background-image: url('https://i.imgur.com/7EYg5BD.png');
+    background-image: url('https://i.imgur.com/yhXwo0d.png');
 }
 
 .day11 .front {
-    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
+    background-image: url('https://i.imgur.com/zdTnZHn.png');
 }
 
 .day12 .front {
-    background-image: url('https://i.imgur.com/nu9Jbcq.png');
+    background-image: url('https://i.imgur.com/p4IbVjA.png');
 }
 
 .day13 .front {
-    background-image: url('https://i.imgur.com/gC1G18d.png');
+    background-image: url('https://i.imgur.com/N8Pf2aa.png');
 }
 
 .day14 .front {
-    background-image: url('https://i.imgur.com/wy4p3et.png');
+    background-image: url('https://i.imgur.com/0bATSi3.png');
 }
 
 .day15 .front {
-    background-image: url('https://i.imgur.com/7EYg5BD.png');
+    background-image: url('https://i.imgur.com/ZiA0HQ7.png');
 }
 
 .day16 .front {
-    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
+    background-image: url('https://i.imgur.com/ig3sulQ.png');
 }
 
 .day17 .front {
-    background-image: url('https://i.imgur.com/nu9Jbcq.png');
+    background-image: url('https://i.imgur.com/IA4PqYS.png');
 }
 
 .day18 .front {
-    background-image: url('https://i.imgur.com/gC1G18d.png');
+    background-image: url('https://i.imgur.com/nn4pS34.png');
 }
 
 .day19 .front {
-    background-image: url('https://i.imgur.com/wy4p3et.png');
+    background-image: url('https://i.imgur.com/mP5qTRy.png');
 }
 
 .day20 .front {
-    background-image: url('https://i.imgur.com/7EYg5BD.png');
+    background-image: url('https://i.imgur.com/UEamSEX.png');
 }
 
 .day21 .front {
-    background-image: url('https://i.imgur.com/YC5Ait3.jpg');
+    background-image: url('https://i.imgur.com/La9QuAE.png');
 }
 
 .day22 .front {
-    background-image: url('https://i.imgur.com/nu9Jbcq.png');
+    background-image: url('https://i.imgur.com/Od7W3Zx.png');
 }
 
 .day23 .front {
-    background-image: url('https://i.imgur.com/gC1G18d.png');
+    background-image: url('https://i.imgur.com/9z2yTiQ.png');
 }
 
 .day24 .front {
-    background-image: url('https://i.imgur.com/wy4p3et.png');
+    background-image: url('https://i.imgur.com/Ut69awp.png');
 }
 
 .day1 .back {
@@ -492,5 +492,5 @@ h2{
 }
 
 .calendar-grid:nth-of-type(2) {
-    display: none;
+    display: inherit;
 }
