@@ -164,7 +164,7 @@ html[data-theme="dark"] {
 
 body {
     background-color: var(--bg-calendar);
-    background-image: url('https://i.imgur.com/RiK2WAl.png');
+    background-image: url('https://i.imgur.com/2qcl6n0.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -180,102 +180,6 @@ body {
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: auto;
     grid-gap: 15px;
-}
-
-.day1 .front {
-    background-image: url('https://i.imgur.com/cNGyUam.png');
-}
-
-.day2 .front {
-    background-image: url('https://i.imgur.com/DfOpRWH.png');
-}
-
-.day3 .front {
-    background-image: url('https://i.imgur.com/5PjzwbC.png');
-}
-
-.day4 .front {
-    background-image: url('https://i.imgur.com/dU1xrDe.png');
-}
-
-.day5 .front {
-    background-image: url('https://i.imgur.com/55JYARQ.png');
-}
-
-.day6 .front {
-    background-image: url('https://i.imgur.com/uhA46yS.png');
-}
-
-.day7 .front {
-    background-image: url('https://i.imgur.com/XOhtOgs.png');
-}
-
-.day8 .front {
-    background-image: url('https://i.imgur.com/zRvV1jb.png');
-}
-
-.day9 .front {
-    background-image: url('https://i.imgur.com/ojKUPs0.png');
-}
-
-.day10 .front {
-    background-image: url('https://i.imgur.com/yhXwo0d.png');
-}
-
-.day11 .front {
-    background-image: url('https://i.imgur.com/zdTnZHn.png');
-}
-
-.day12 .front {
-    background-image: url('https://i.imgur.com/p4IbVjA.png');
-}
-
-.day13 .front {
-    background-image: url('https://i.imgur.com/N8Pf2aa.png');
-}
-
-.day14 .front {
-    background-image: url('https://i.imgur.com/0bATSi3.png');
-}
-
-.day15 .front {
-    background-image: url('https://i.imgur.com/ZiA0HQ7.png');
-}
-
-.day16 .front {
-    background-image: url('https://i.imgur.com/ig3sulQ.png');
-}
-
-.day17 .front {
-    background-image: url('https://i.imgur.com/IA4PqYS.png');
-}
-
-.day18 .front {
-    background-image: url('https://i.imgur.com/nn4pS34.png');
-}
-
-.day19 .front {
-    background-image: url('https://i.imgur.com/mP5qTRy.png');
-}
-
-.day20 .front {
-    background-image: url('https://i.imgur.com/UEamSEX.png');
-}
-
-.day21 .front {
-    background-image: url('https://i.imgur.com/La9QuAE.png');
-}
-
-.day22 .front {
-    background-image: url('https://i.imgur.com/Od7W3Zx.png');
-}
-
-.day23 .front {
-    background-image: url('https://i.imgur.com/9z2yTiQ.png');
-}
-
-.day24 .front {
-    background-image: url('https://i.imgur.com/Ut69awp.png');
 }
 
 .day1 .back {
@@ -381,7 +285,7 @@ body {
     perspective: 1000px;
     transform-style: preserve-3d;
     transition: all 300ms;
-    border: 0px solid var(--door-border);
+    border: 1.5px solid var(--door-border);
     border-radius: 10px;
     cursor: pointer;
     min-height: 110px;
@@ -391,7 +295,7 @@ body {
 }
 
 .door:hover {
-    border: 0px solid var(--door-border-hover);
+    border: 1.5px solid var(--door-border-hover);
 }
 
 .door div {
@@ -408,9 +312,6 @@ body {
 
 .door .front {
     background: var(--door-bg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
     color: var(--white-normal);
     transition: all 300ms;
 }
@@ -495,5 +396,5 @@ h2{
 }
 
 .calendar-grid:nth-of-type(2) {
-    display: inherit;
+    display: none;
 }
