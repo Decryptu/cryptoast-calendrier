@@ -51,6 +51,12 @@
     cursor: pointer;
 }
 
+#modalPopup button.research:hover {
+    background: linear-gradient(275.5deg, #FBEE6F 0%, #E3A35C 100%);
+    color: #000;
+    transition: all 300ms;
+}
+
 html {
     --gray-bg: #e5e5e5;
     --gray-soft: #f1f1f6;
