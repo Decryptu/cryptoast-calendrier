@@ -7,13 +7,22 @@
 
 #modalPopup a {
     text-decoration: none;
-    ;
 }
 
-#modalPopup .dailydate {}
+#modalPopup .dailyDate {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
 
 #modalPopup .dailyTitle {
     color: var(--orange-primary);
+}
+
+.dailyTitle, .dailyContent {
+    margin: 0 0 10px;
 }
 
 #modalPopup .dailyContent {}
@@ -35,6 +44,7 @@
     flex-direction: row;
     align-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 
 html {
@@ -334,21 +344,29 @@ body {
     background-position: center center;
     background-color: transparent;
     margin: 15% auto;
-    padding: 20px 20px 30px;
+    padding: 20px;
     border-radius: 6px;
     width: 76%;
     max-width: 600px;
     min-height: 462px;
     letter-spacing: 0.5px;
     line-height: 1.4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .close {
     color: #aaa;
-    float: right;
     font-size: 48px;
     font-weight: bold;
     line-height: 26px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
 }
 
 .close:hover,
@@ -356,6 +374,10 @@ body {
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+.contentWrapper {
+    text-align: center;
 }
 
 h2{
