@@ -411,7 +411,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     color: transparent;
-    transition: transform 0.3s ease, border 0.3s ease;
+    transition: transform 0.3s ease;
     overflow: hidden;
     border: 2px solid transparent;
     border-radius: 15px;
@@ -419,8 +419,7 @@ body {
 
 .door .front:hover {
     transform: scale(1.1);
-    transition: transform 0.3s ease, border 0.3s ease;
-    border: 2px solid white;
+    transition: transform 0.3s ease;
 }
   
 
