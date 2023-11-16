@@ -371,12 +371,12 @@ body {
 
 .close {
     color: black;
-    font-size: 42;
+    font-size: 32px;
     font-weight: 400;
     line-height: 26px;
     position: absolute;
-    top: 125px;
-    right: 20px;
+    top: 135px;
+    right: 25px;
     cursor: pointer;
 }
 
