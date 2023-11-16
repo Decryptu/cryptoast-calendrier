@@ -1,3 +1,338 @@
-h2 {
-    color: red!important;
+#modalPopup img {
+    height: 1.5em;
+    margin-right: 0.4em;
+    top: -0.1em;
+    position: relative;
+}
+
+#modalPopup a {
+    text-decoration: none;
+    ;
+}
+
+#modalPopup .dailydate {}
+
+#modalPopup .dailyTitle {
+    color: var(--orange-primary);
+}
+
+#modalPopup .dailyContent {}
+
+
+#modalPopup button.research {
+    background: linear-gradient(275.5deg, #56B0F1 0%, #D86BFF 100%);
+    border: 0;
+    border-radius: 5px;
+    padding: 0.4em 0.5em;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+html {
+    --gray-bg: #e5e5e5;
+    --gray-soft: #f1f1f6;
+    --gray-light: #bebebe;
+    --gray-light-2: #1111110d;
+    --gray-normal: #888888;
+    --loading-grey: #ededed;
+    --orange-primary: #ff815e;
+    --orange-primary-2: #fb7d5c;
+    --orange-light: #fff1ef;
+    --logo-gradient-from: #f2bf42;
+    --logo-gradient-to: #eda73b;
+    --formation-gradient-from: #f2aa81;
+    --formation-gradient-to: #eb6192;
+    --orange-gradient-from: #fe904c;
+    --orange-gradient-to: #fd6d6a;
+    --purple-light: #f0eaf3;
+    --purple-gradient-from: #d693d8;
+    --purple-gradient-to: #9c7ec9;
+    --green-gradient-from: #61d7ac;
+    --green-gradient-to: #6cced0;
+    --blue-gradient-from: #b6a8f6;
+    --blue-gradient-to: #719fea;
+    --black-normal: #111111;
+    --white-normal: #ffffff;
+    --black-normal-opacity-5: #11111180;
+    --white-normal-opacity-5: #ffffff80;
+    --white-normal-loading-step-1: 255, 255, 255, 0;
+    --white-normal-loading-step-2: 255, 255, 255, 0.5;
+    --white-normal-loading-step-3: 255, 255, 255, 0;
+    --bg-back: #f8f8f8;
+    --bg-front: #ffffff;
+    --red-light: #ffdadb;
+    --red-normal: #d63031;
+    --red-normal-home: #ff7675;
+    --green-light-home: #55efc4;
+    --green-light: #c7fbeb;
+    --green-normal: #34c759;
+    --green-dark: #00b894;
+    --bitcoin-color: #ffbd82;
+    --eth-color: #85aedc;
+    --altcoin-color: #ff9c94;
+    --blockchain-color: #efbcb3;
+    --nft-color: #fd79a8;
+    --defi-color: #d1a6fe;
+    --technical-analyse-color: #a6b9fe;
+    --on-chain-analyse-color: #f0bdfe;
+    --gamefi-color: #8ac3a6;
+    --right-and-taxation-color: #9de0e9;
+    --exchange-color: #ffa600;
+    --advices-and-tutos-color: #ffcbb3;
+    --trading-color: #a6b9fe;
+    --other-color: #bebebe;
+    --guide-or-turorial-easy-light: #ddf3e5;
+    --guide-or-turorial-easy-bg: #b8ffbf;
+    --guide-or-turorial-easy-color: #659b51;
+    --guide-or-turorial-medium-light: #faf1d9;
+    --guide-or-turorial-medium-dark: #fdcb6e;
+    --guide-or-turorial-medium-bg: #ffdab8;
+    --guide-or-turorial-medium-color: #c78d7b;
+    --guide-or-turorial-hard-light: #f5d9dc;
+    --guide-or-turorial-hard-bg: #ffb8b8;
+    --guide-or-turorial-hard-color: #bf6f6f;
+    --prices-grid-odd: white;
+    --prices-grid-even: #f8f8f8;
+    --outer-card-shadow: #1c415414;
+    --inner-card-shadow: #0000001f;
+    --header-border: #efefef;
+    --footer-bg: white;
+}
+
+html[data-theme="dark"] {
+    --gray-soft: #282828;
+    --gray-light-2: #ffffff1a;
+    --black-normal: #ffffff;
+    --white-normal: #111111;
+    --black-normal-opacity-5: #ffffff80;
+    --white-normal-opacity-5: #11111180;
+    --white-normal-loading-step-1: 136, 136, 136, 0;
+    --white-normal-loading-step-2: 136, 136, 136, 0.5;
+    --white-normal-loading-step-3: 136, 136, 136, 0;
+    --bg-back: #111111;
+    --bg-front: #1e1e1e;
+    --loading-grey: #1e1e1e;
+    --prices-grid-odd: #1e1e1e;
+    --prices-grid-even: rgba(23, 23, 23, 0.75);
+    --outer-card-shadow: #10101022;
+    --inner-card-shadow: #10101022;
+    --header-border: #1e1e1e;
+    --footer-bg: #1e1e1e;
+}
+
+
+:root {
+    --bg-front: #ffffff;
+    --orange-primary: #ff815e;
+    --orange-gradient-from: #ff9966;
+    --orange-gradient-to: #ff5e62;
+}
+
+
+body {
+    background-color: var(--bg-front);
+    font-family: 'Montserrat', Verdana;
+}
+
+
+.calendar-grid {
+    display: grid;
+    width: 96%;
+    max-width: 900px;
+    margin: 2% auto;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 15px;
+}
+
+.day1 .back {
+    background-image: url('https://cryptoast.fr/wp-content/themes/cryptoast3/icons/cryptoast-logo.svg');
+}
+
+.day2 .back {
+    background-image: url('https://cryptoast.fr/img/tokens/64/1.png');
+}
+
+.day3 .back {
+    background-image: url('https://cryptoast.fr/img/tokens/64/1027.png');
+}
+
+.day4 .back {
+    background-image: url('https://cryptoast.fr/img/tokens/64/825.png');
+}
+
+.day5 .back {
+    background-image: url('https://cryptoast.fr/img/tokens/64/52.png');
+}
+
+.day6 .back {
+    background-image: url('https://cryptoast.fr/img/tokens/64/3890.png');
+}
+
+.day7 .back {
+    background-image: url('https://cryptoast.fr/img/tokens/64/74.png');
+}
+
+.day8 .back {
+    background-image: url('https://cryptoast.fr/img/tokens/64/1839.png');
+}
+
+.day9 .back {
+    background-image: url('https://cryptoast.fr/img/tokens/64/2010.png');
+}
+
+.day10 .back {
+    background-image: url('https://cryptoast.fr/img/tokens/64/512.png');
+}
+
+.day11 .back {
+    background-image: url('https://cryptoast.fr/img/tokens/64/1975.png');
+}
+
+.day12 .back {
+    background-image: url('https://cryptoast.fr/img/tokens/64/1321.png');
+}
+
+.day13 .back {
+    background-image: url('https://cryptoast.fr/img/tokens/64/74.png');
+}
+
+.day14 .back {
+    background-image: url('https://cryptoast.fr/img/tokens/64/1765.png');
+}
+
+.day15 .back {
+    background-image: url('https://cryptoast.fr/img/tokens/64/328.png');
+}
+
+.day16 .back {
+    background-image: url('https://cryptoast.fr/img/tokens/64/1720.png');
+}
+
+.day17 .back {
+    background-image: url('https://cryptoast.fr/img/tokens/64/131.png');
+}
+
+.day18 .back {
+    background-image: url('https://cryptoast.fr/img/tokens/64/74.png');
+}
+
+.day19 .back {
+    background-image: url('https://cryptoast.fr/img/tokens/64/2.png');
+}
+
+.day20 .back {
+    background-image: url('https://cryptoast.fr/img/tokens/64/3602.png');
+}
+
+.day21 .back {
+    background-image: url('https://cryptoast.fr/img/tokens/64/3717.png');
+}
+
+.day22 .back {
+    background-image: url('https://cryptoast.fr/img/tokens/64/74.png');
+}
+
+.day23 .back {
+    background-image: url('https://cryptoast.fr/img/tokens/64/4023.png');
+}
+
+.day24 .back {
+    background-image: url('https://cryptoast.fr/img/tokens/64/4256.png');
+}
+
+
+.door {
+    width: 100%;
+    height: 100%;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    transition: all 300ms;
+    border: 1.5px dashed var(--orange-primary);
+    border-radius: 10px;
+    cursor: pointer;
+    min-height: 110px;
+    font-family: 'BioRhyme', serif;
+    font-size: 58px;
+    color: var(--numbers);
+}
+
+.door div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.door .front {
+    background: linear-gradient(to right, var(--orange-gradient-from), var(--orange-gradient-to));
+    color: var(--white-normal);
+}
+
+.door .back {
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: var(--door-back);
+    transform: rotateY(180deg);
+}
+
+.open {
+    transform: rotateY(180deg);
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modalContent {
+    background-color: var(--bg-front);
+    margin: 15% auto;
+    padding: 20px 20px 30px;
+    border: 4px solid var(--border-pink);
+    border-radius: 6px;
+    width: 76%;
+    max-width: 600px;
+    min-height: 200px;
+    letter-spacing: 0.5px;
+    line-height: 1.4em;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 26px;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
