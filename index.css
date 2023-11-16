@@ -143,6 +143,7 @@ body {
     background-image: url('https://i.imgur.com/2qcl6n0.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     font-family: 'Montserrat', Verdana;
 }
 
