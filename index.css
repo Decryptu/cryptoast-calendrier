@@ -11,25 +11,28 @@
 
 #modalPopup .dailyDate {
     position: absolute;
-    top: 20px;
+    top: 80px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-60%, -50%);
     margin: 0;
+    font-size: 3rem;
 }
 
 #modalPopup .dailyTitle {
-    color: var(--orange-primary);
+    color: #7E8DCF;
+    padding-top: 10rem;
 }
 
 .dailyTitle, .dailyContent {
     margin: 0 0 10px;
+    text-align: center;
 }
 
 #modalPopup .dailyContent {}
 
 
 #modalPopup button.research {
-    background: linear-gradient(275.5deg, #56B0F1 0%, #D86BFF 100%);
+    background: linear-gradient(275.5deg, #CAD1F8 0%, #282F60 100%);
     border: 0;
     border-radius: 5px;
     padding: 0.4em 0.5em;
@@ -359,12 +362,12 @@ body {
 }
 
 .close {
-    color: #aaa;
-    font-size: 48px;
-    font-weight: bold;
+    color: black;
+    font-size: 42;
+    font-weight: 400;
     line-height: 26px;
     position: absolute;
-    top: 20px;
+    top: 125px;
     right: 20px;
     cursor: pointer;
 }
@@ -381,7 +384,7 @@ body {
 }
 
 h2{
-    display: none;
+    display: inherit;
 }
 
 .calendar-grid:nth-of-type(2) {
