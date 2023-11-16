@@ -488,11 +488,12 @@ body {
 .contentWrapper {
     text-align: center;
 }
-
+/*
 h2{
     display: inherit;
 }
 
 .calendar-grid:nth-of-type(2) {
-    display: inherit;
+    display: none;
 }
+*/
