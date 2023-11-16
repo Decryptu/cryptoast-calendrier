@@ -413,7 +413,6 @@ body {
     color: transparent;
     transition: transform 0.3s ease;
     overflow: hidden;
-    border: 2px solid transparent;
     border-radius: 15px;
 }
 
