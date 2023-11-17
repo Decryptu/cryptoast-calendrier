@@ -10,6 +10,25 @@
     .door {
         height: 250px;
     }
+
+    .modalContent {
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        max-width: 100%;
+        min-height: 462px;
+        letter-spacing: 0.5px;
+        line-height: 1.4em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }    
 }
 
 
