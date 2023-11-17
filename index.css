@@ -171,6 +171,13 @@ body {
     font-family: 'Montserrat', Verdana;
 }
 
+.titre{
+    width: 96%;
+    max-width: 900px;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
 
 .calendar-grid {
     display: grid;
