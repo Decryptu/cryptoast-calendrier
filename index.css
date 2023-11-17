@@ -177,6 +177,7 @@ body {
     color: #fff;
     text-transform: capitalize;
     font-size: 2rem;
+    margin: 2% auto;
 }
 
 .calendar-grid {
