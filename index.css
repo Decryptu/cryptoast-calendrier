@@ -12,9 +12,15 @@
     }
 
     .modalContent {
+        background-image: url(https://i.imgur.com/rXjEC2M.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: transparent;
         overflow: hidden;
         margin: 0;
         padding: 0;
+        border-radius: 6px;
         width: 100%;
         max-width: 100%;
         min-height: 462px;
@@ -28,7 +34,36 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-    }    
+    }       
+}
+
+
+@media only screen and (min-width: 736px) {
+    .calendar-grid {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .modalContent {
+        background-image: url('https://i.imgur.com/rXjEC2M.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: transparent;
+        overflow: hidden;
+        margin: 10% auto;
+        padding: 20px;
+        border-radius: 6px;
+        width: 76%;
+        max-width: 600px;
+        min-height: 462px;
+        letter-spacing: 0.5px;
+        line-height: 1.4em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
 }
 
 
@@ -209,12 +244,6 @@ body {
     text-transform: capitalize;
     font-size: 2rem;
     margin: 2% auto;
-}
-
-@media only screen and (min-width: 736px) {
-    .calendar-grid {
-        grid-template-columns: repeat(6, 1fr);
-    }
 }
 
 .calendar-grid {
@@ -490,28 +519,6 @@ body {
     overflow: auto;
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.4);
-}
-
-.modalContent {
-    background-image: url('https://i.imgur.com/rXjEC2M.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-color: transparent;
-    overflow: hidden;
-    margin: 10% auto;
-    padding: 20px;
-    border-radius: 6px;
-    width: 76%;
-    max-width: 600px;
-    min-height: 462px;
-    letter-spacing: 0.5px;
-    line-height: 1.4em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
 }
 
 .close {
