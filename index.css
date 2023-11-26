@@ -24,6 +24,20 @@
         align-items: center;
         position: relative;
     }
+
+    #modalPopup .dailyDate{
+        top:90px;
+        font-size: 3rem;
+    }
+
+    #modalPopup .dailyTitle{
+        padding-top: 6rem;
+    }
+
+    .close{
+        top: 125px;
+        right: 30px;
+    }
 }
 
 
@@ -94,16 +108,13 @@
 
 #modalPopup .dailyDate {
     position: absolute;
-    top: 90px;
     left: 50%;
     transform: translate(-60%, -60%);
     margin: 0;
-    font-size: 3rem;
 }
 
 #modalPopup .dailyTitle {
     color: #EDA73B;
-    padding-top: 6rem;
 }
 
 .dailyTitle, .dailyContent {
@@ -542,8 +553,6 @@ body {
     font-weight: 400;
     line-height: 26px;
     position: absolute;
-    top: 125px;
-    right: 30px;
     cursor: pointer;
 }
 
