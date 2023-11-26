@@ -88,7 +88,7 @@
 }
 
 #modalPopup .dailyTitle {
-    color: #CD803D;
+    color: #EDA73B;
     padding-top: 10rem;
 }
 
@@ -98,7 +98,7 @@
 }
 
 #modalPopup button.research {
-    background: linear-gradient(275.5deg, #FFC192 0%, #CD803D 100%);
+    background: linear-gradient(275.5deg, #F2BF42 0%, #EDA73B 100%);
     border: 0;
     border-radius: 5px;
     padding: 0.5em 1.5em;
@@ -118,7 +118,7 @@
 }
 
 #modalPopup button.research:hover {
-    background: linear-gradient(275.5deg, #FBEE6F 0%, #E3A35C 100%);
+    background: linear-gradient(275.5deg, #f5cd69 0%, #f3bc69 100%);
     color: #fff;
     transition: all 300ms;
 }
