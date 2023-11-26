@@ -41,7 +41,7 @@
     }
 
     .modalContent {
-        background-image: url('https://cryptoast.fr/wp-content/uploads/2023/11/modal.png');
+        background-image: url('https://cryptoast.fr/wp-content/uploads/2023/11/modal-mobile.png');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -89,7 +89,7 @@
 
 #modalPopup .dailyTitle {
     color: #EDA73B;
-    padding-top: 8rem;
+    padding-top: 6rem;
 }
 
 .dailyTitle, .dailyContent {
@@ -252,7 +252,7 @@ body {
     max-width: 900px;
     margin: 2% auto;
     grid-template-rows: auto;
-    grid-gap: 15px;
+    grid-gap: 12px;
 }
 
 .day1 .front {
