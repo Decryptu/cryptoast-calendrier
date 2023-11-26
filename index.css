@@ -42,7 +42,7 @@
 
     .modalContent {
         background-image: url('https://cryptoast.fr/wp-content/uploads/2023/11/modal-mobile.png');
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
         background-position: center center;
         background-color: transparent;
