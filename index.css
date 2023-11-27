@@ -511,16 +511,16 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     color: transparent;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     overflow: hidden;
     border-radius: 15px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0); /* Initial state of shadow */
 }
 
 .door .front:hover {
-    transform: scale(1.1);
-    transition: transform 0.3s ease;
+    transform: scale(1.05) rotate(5deg); /* Slight scale and rotation */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Shadow for depth */
 }
-  
 
 .door .back {
     background-size: cover;
