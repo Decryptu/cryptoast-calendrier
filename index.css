@@ -260,6 +260,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     font-family: 'Montserrat', Verdana;
+    min-height: 100vh;
 }
 
 .titre{
