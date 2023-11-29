@@ -52,17 +52,15 @@
 @media only screen and (max-width: 736px) {
 
     .calendar-grid {
-        grid-template-columns: repeat(3, 1fr);
         display: grid;
-        width: 96%;
+        grid-template-columns: repeat(3, 1fr);
+        width: 90%;
         max-width: 900px;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: auto;
-        margin-bottom: auto;
+        margin: auto;
         grid-template-rows: auto;
         grid-gap: 16px;
     }
+    
 
     .titre {
         font-size: 4rem;
