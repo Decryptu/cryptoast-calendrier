@@ -1,6 +1,13 @@
 @media only screen and (min-width: 736px) {
+
     .calendar-grid {
+        display: grid;
+        width: 96%;
+        max-width: 900px;
+        margin: 2% auto;
         grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: auto;
+        grid-gap: 12px;
     }
 
     .modalContent {
@@ -43,8 +50,18 @@
 
 
 @media only screen and (max-width: 736px) {
+
     .calendar-grid {
-        grid-template-columns: repeat(3, 1fr)!important;
+        grid-template-columns: repeat(3, 1fr);
+        display: grid;
+        width: 96%;
+        max-width: 900px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: auto;
+        margin-bottom: auto;
+        grid-template-rows: auto;
+        grid-gap: 16px;
     }
 
     .titre {
@@ -277,15 +294,6 @@ body {
     margin: 2% auto;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     text-align: center;
-}
-
-.calendar-grid {
-    display: grid;
-    width: 96%;
-    max-width: 900px;
-    margin: 2% auto;
-    grid-template-rows: auto;
-    grid-gap: 12px;
 }
 
 .day1 .front {
