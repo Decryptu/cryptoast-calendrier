@@ -263,14 +263,19 @@ body {
     min-height: 100vh;
 }
 
+.logo_principal{
+    padding: 2rem 9rem;
+}
+
 .titre{
     width: 96%;
     max-width: 900px;
     color: #F4EED9;
     text-transform: capitalize;
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 2% auto;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
 }
 
 .calendar-grid {
