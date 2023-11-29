@@ -34,6 +34,7 @@
 
     .door{
         height: 100%;
+        min-height: 110px;
     }
 
     #modalPopup .dailyDate{
@@ -71,8 +72,8 @@
     }
 
     .door {
-        height: 85%;
         max-height: 250px;
+        min-height: 80px;
     }
 
     .modalContent {
@@ -501,7 +502,6 @@ body {
     border: 0px solid var(--door-border);
     border-radius: 10px;
     cursor: pointer;
-    min-height: 110px;
     font-family: 'BioRhyme', serif;
     font-size: 58px;
     color: var(--numbers);
