@@ -32,6 +32,10 @@
         position: relative;
     }
 
+    .door{
+        height: 100%;
+    }
+
     #modalPopup .dailyDate{
         top:90px;
         font-size: 3rem;
@@ -491,7 +495,6 @@ body {
 
 .door {
     width: 100%;
-    height: 100%;
     perspective: 1000px;
     transform-style: preserve-3d;
     transition: all 300ms;
